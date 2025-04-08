@@ -48,6 +48,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "XRI RightHand",
+            "id": "e43c137d-0038-43e1-ad91-b1a2483f7e47",
+            "actions": [
+                {
+                    "name": "Toggle Passthrough",
+                    "type": "Button",
+                    "id": "b3c3ade8-c5f5-49cb-9bbc-4f98b7fb1c3b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "35fe9b7c-9b18-414b-958e-5dd31e68dcb1",
+                    "path": "<XRController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Passthrough",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
